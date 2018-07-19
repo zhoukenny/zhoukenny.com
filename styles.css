@@ -24,3 +24,7 @@ test {
 p.test2{
     color: green
 }
+
+footer { 
+    display: block;
+}
