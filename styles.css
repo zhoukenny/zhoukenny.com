@@ -1,4 +1,27 @@
-body {background-color: gray;}
+/*
+#sampleDiv p {color: black;}
+sampleID {color: black}
+p.sampleClass{color: black}
+*/
+
+header {
+    color: white;
+    font-family: helvetica;
+    text-align: left;
+}
+
+body {
+    color: white;
+    font-family: helvetica;
+    background-color: gray;
+    text-align: center
+}
+
+footer {
+    color: white;
+    font-family: helvetica;
+    text-align: right;
+}
 
 h1 {
     color: white;
@@ -14,10 +37,3 @@ p {
     margin: 50px;
     text-align: center;
 }
-
-/*
-sampleID {color: black}
-p.sampleClass{color: black}
-*/
-
-footer {display: block;}
