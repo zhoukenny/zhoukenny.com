@@ -2,6 +2,9 @@
 #sampleDiv p {color: black;}
 sampleID {color: black}
 p.sampleClass{color: black}
+    border: 1px solid powderblue;
+    padding: 30px;
+    margin: 50px;
 */
 
 header {
@@ -32,17 +35,13 @@ h1 {
 p {
     color: white;
     font-family: helvetica;
-    border: 1px solid powderblue;
-    padding: 30px;
-    margin: 50px;
-    text-align: center;
 }
 
 /* Hover Button */
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: #000000;
   border: none;
   color: #FFFFFF;
   text-align: center;
