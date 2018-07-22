@@ -1,11 +1,8 @@
-body {
-    background-color: gray;
-}
+body {background-color: gray;}
 
 h1 {
     color: white;
     font-family: helvetica;
-    font-size: 100%;
     text-align: center;
 }
 
@@ -18,27 +15,9 @@ p {
     text-align: center;
 }
 
-a {
-    color: white;
-    font-family: helvetica;
-    border: 1px solid powderblue;
-    padding: 30px;
-    margin: 50px;
-    text-align: center;
-}
-
 /*
-
-sampleID {
-    color: black
-}
-
-p.sampleClass{
-    color: black
-}
-
+sampleID {color: black}
+p.sampleClass{color: black}
 */
 
-footer {
-    display: block;
-}
+footer {display: block;}
