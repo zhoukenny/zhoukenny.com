@@ -98,11 +98,13 @@ body, html {
         <i class="fa fa-bars"></i>
       </a>
       <a href="/" class="w3-bar-item w3-button">HOME</a>
-      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>  ABOUT</a>
-      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i>  PORTFOLIO</a>
-      <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>  CONTACT</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+      <!--
       <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
         <i class="fa fa-search"></i>
+      -->
       </a>
     </div>
 
@@ -120,7 +122,7 @@ body, html {
   <!-- First Parallax Image with Logo Text -->
   <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
     <div class="w3-display-middle" style="white-space:nowrap;">
-      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">KENNY <span class="w3-hide-small">ZHOU</span>
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">KENNY<span class="w3-hide-small"> ZHOU</span>
     </div>
   </div>
 
@@ -131,7 +133,7 @@ body, html {
     <p>I am an undergraduate at Cornell University, studying Computer and Information Sciences with interests in business, finance, and technology. Open to networking, internships, and messages at kzhou.kenny@gmail.com.</p>
     <div class="w3-row">
       <div class="w3-col m6 w3-center w3-padding-large">
-        <p><b><i class="fa fa-user w3-margin-right"></i>Kenny Zhou</b></p><br>
+        <p><b><i class="fa fa-user w3-margin-right"></i>I am Kenny Zhou</b></p><br>
         <img src="/resources/headshot.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="60" height="60">
       </div>
 
@@ -189,13 +191,13 @@ body, html {
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
     <div class="w3-row-padding w3-center">
       <div class="w3-col m3">
-        <img src="/resources/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Project 1">
+        <img src="/resources/p1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Project 1">
       </div>
     </div>
 
     <div class="w3-row-padding w3-center w3-section">
       <div class="w3-col m3">
-        <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Project 2">
+        <img src="/w3images/p2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Project 2">
       </div>
     </div>
   </div>
@@ -219,18 +221,21 @@ body, html {
  <!-- Container (Contact Section) -->
  <div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center">WHERE I WORK</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
+  <p class="w3-center"><em>Send me an email!</em></p>
 
   <div class="w3-row w3-padding-32 w3-section">
     <!-- <div class="w3-col m4 w3-container">
       <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
     </div> -->
-    <div class="w3-col m8 w3-panel">
+    <div class="w3-col m4 w3-container">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Ithaca, NY, USA<br>
         <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +1 (678) 607-6056<br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: kzhou.kenny@gmail.com<br>
       </div>
+    </div>
+
+    <div class="w3-col m8 w3-panel">
       <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
