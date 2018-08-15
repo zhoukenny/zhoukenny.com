@@ -1,1 +1,79 @@
+/*
+#sampleDiv p {color: black;}
+sampleID {color: black}
+p.sampleClass{color: black}
+    border: 1px solid powderblue;
+    padding: 30px;
+    margin: 50px;
+*/
 
+header {
+    color: white;
+    font-family: helvetica;
+    text-align: left;
+}
+
+body {
+    color: white;
+    font-family: helvetica;
+    background-color: gray;
+    text-align: center
+}
+
+footer {
+    color: white;
+    font-family: helvetica;
+    text-align: right;
+}
+
+h1 {
+    color: white;
+    font-family: helvetica;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: helvetica;
+}
+
+/* Hover Button */
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
