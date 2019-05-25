@@ -6,10 +6,16 @@ html, body {
   font-family: sans-serif;
   font-size: larger;
   text-align: center;
+  color: #FFFFFF;
+}
+
+body {
+  background-color: #000000;
 }
 
 a {
   text-decoration: none;
+  color: #3646ff;
 }
 
 a:hover{
@@ -18,7 +24,7 @@ a:hover{
 }
 
 .fas, .far, .fab {
-  color: black;
+  color: #FFFFFF;
 }
 
 .fas:hover, .far:hover, .fab:hover {
@@ -73,6 +79,7 @@ main::after {
 #pic {
   border-radius: 50%;
   border: 3px solid #FFFFFF;
+  margin-top: 10%;
 }
 
 /* Footer */
