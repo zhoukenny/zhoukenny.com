@@ -30,12 +30,12 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140687371-2"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'UA-140687371-2');
-    gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+  gtag('config', 'UA-140687371-2');
+  gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
   </script>
 
 </head>
@@ -43,16 +43,17 @@
 <body>
 
   <header>
-    <!-- <img src="images/background.jpg" alt="background img">
-    <nav>
-      <a href="https://www.zhoukenny.com">Home</a>
-      <a href="https://www.linkedin.com/in/zhoukenny">LinkedIn</a>
-      <a href="mailto:info@zhoukenny.com">Contact</a>
-    </nav> -->
+    <!-- <img src="images/background.jpg" alt="background img"> -->
+    <!-- <nav>
+    <a href="https://www.zhoukenny.com">Home</a>
+    <a href="https://www.linkedin.com/in/zhoukenny">LinkedIn</a>
+    <a href="mailto:info@zhoukenny.com">Contact</a> </nav> -->
   </header>
 
   <main>
-    <img id="pic" src="images/Zhou_Kenny-Headshot.jpg" alt="Zhou_Kenny-Headshot.jpg" height="250" width="250">
+    <div id="pic">
+      <img src="images/Zhou_Kenny-Headshot.jpg" alt="Zhou_Kenny-Headshot.jpg">
+    </div>
     <h1 id="title">Kenny Zhou</h1>
     <div id="bio">
       <!-- <p>Hi, I'm Kenny Zhou, an <a href="https://www.dictionary.com/browse/undergrad">undergrad</a> at <a href="https://www.cornell.edu/">Cornell University</a>!</p>
@@ -64,19 +65,28 @@
   </main>
 
   <footer>
-    <div id="social" class="row">
-      <a href="https://fb.com/100001067829571"><i class="fab fa-facebook fa-2x"></i></a>
-      <a href="https://instagram.com/_zhoukenny"><i class="fab fa-instagram fa-2x"></i></a>
-      <a href="https://github.com/zhoukenny"><i class="fab fa-github fa-2x"></i></a>
-      <a href="https://linkedin.com/in/zhoukenny"><i class="fab fa-linkedin fa-2x"></i></a>
-      <a href="mailto:info@zhoukenny.com"><i class="fas fa-envelope fa-2x"></i></a>
-      <!-- <a href="https://kennyzhou.yelp.com"><i class="fab fa-yelp fa-2x"></i></a> -->
+    <div id="social">
+      <!-- <a class="facebook icon font" href="https://fb.com/100001067829571"><span>Facebook</span></a>
+      <a class="instagram icon" href="https://instagram.com/_zhoukenny"><span>Instagram</span></a>
+      <a class="github icon" href="https://github.com/zhoukenny"><span>GitHub</span></a>
+      <a class="linkedin icon" href="https://linkedin.com/in/zhoukenny"><span>LinkedIn</span></a>
+      <a class="email icon" href="mailto:info@zhoukenny.com"><span>Email</span></a>
+      <a href="https://kennyzhou.yelp.com"><i class="fab fa-yelp fa-1x"><span>Yelp</span></i></a> -->
       <!-- <a href="https://medium.com/@zhoukenny"><i class="fab fa-medium fa-2x"></i></a> -->
       <!-- <a href="https://angel.co/zhoukenny"><i class="fab fa-angellist fa-2x"></i></a> -->
       <!-- https://stackoverflow.com/users/10181828/zhoukenny -->
       <!-- https://reddit.com/u/zhoukenny -->
+
+      <a class="icon" href="https://fb.com/100001067829571"><i class="fab fa-facebook"></i></a>
+      <a class="icon" href="https://instagram.com/_zhoukenny"><i class="fab fa-instagram"></i></a>
+      <a class="icon" href="https://github.com/zhoukenny"><i class="fab fa-github"></i></a>
+      <a class="icon" href="https://linkedin.com/in/zhoukenny"><i class="fab fa-linkedin"></i></a>
+      <a class="icon" href="mailto:info@zhoukenny.com"><i class="fas fa-envelope"></i></a>
     </div>
   </footer>
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+
 
 </body>
 
