@@ -1,92 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: home
+---
 
-<!-- Head -->
-<head>
-  <!-- Important Metadata -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Website Metadata -->
-  <title>Kenny Zhou</title>
-  <meta name="author" content="Kenny Zhou">
-  <meta property="og:title" content="Kenny Zhou">
-  <meta property="og:site_name" content="Kenny Zhou">
-  <meta name="keywords" content="kenny, zhou, zhoukenny, kennyzhou, website">
-  <meta name="description" content="Kenny Zhou's Professional Website">
-  <meta name="og:description" content="Kenny Zhou's Professional Website">
-  <link rel="icon" href="images/favicon.ico">
-  <meta property="og:image" content="resources/favicon.ico">
-  <link rel="canonical" href="https://www.zhoukenny.com">
-  <meta property="og:url" content="https://www.zhoukenny.com">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="website">
-
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="styles/all.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140687371-2"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-140687371-2');
-  gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
-  </script>
-
-</head>
-
-<body>
-
-  <header>
-    <!-- <img src="images/background.jpg" alt="background img"> -->
-    <!-- <nav>
-    <a href="https://www.zhoukenny.com">Home</a>
-    <a href="https://www.linkedin.com/in/zhoukenny">LinkedIn</a>
-    <a href="mailto:info@zhoukenny.com">Contact</a> </nav> -->
-  </header>
-
-  <main>
-    <div id="pic">
-      <img src="images/Zhou_Kenny-Headshot.jpg" alt="Zhou_Kenny-Headshot.jpg">
-    </div>
-    <h1 id="title">Kenny Zhou</h1>
-    <div id="bio">
-      <!-- <p>Hi, I'm Kenny Zhou, an <a href="https://www.dictionary.com/browse/undergrad">undergrad</a> at <a href="https://www.cornell.edu/">Cornell University</a>!</p>
-      <p>I'm interested in <a href="https://en.wikipedia.org/wiki/Business/">business</a>, <a href="https://en.wikipedia.org/wiki/Technology/">technology</a>, and the intersectionality of the two.</p> -->
-      <p>Hi, I'm Kenny Zhou, an undergrad at Cornell University!</p>
-      <p>I'm interested in business, technology, and the intersectionality of the two.</p>
-      <p>Contact me at <a href="mailto:info@zhoukenny.com"><i class="fas fa-envelope fa-sm"></i> info@zhoukenny.com</a>. 
-        <!-- Check out my <a href="resources/Zhou_Kenny-Resume.pdf"><i class="fas fa-file-alt fa-sm"></i> resume</a>. -->
-      </p>
-    </div>
-  </main>
-
-  <footer>
-    <div id="social">
-      <!-- <a class="facebook icon font" href="https://fb.com/100001067829571"><span>Facebook</span></a>
-      <a class="instagram icon" href="https://instagram.com/_zhoukenny"><span>Instagram</span></a>
-      <a class="github icon" href="https://github.com/zhoukenny"><span>GitHub</span></a>
-      <a class="linkedin icon" href="https://linkedin.com/in/zhoukenny"><span>LinkedIn</span></a>
-      <a class="email icon" href="mailto:info@zhoukenny.com"><span>Email</span></a>
-      <a href="https://kennyzhou.yelp.com"><i class="fab fa-yelp fa-1x"><span>Yelp</span></i></a> -->
-      <!-- <a href="https://medium.com/@zhoukenny"><i class="fab fa-medium fa-2x"></i></a> -->
-      <!-- <a href="https://angel.co/zhoukenny"><i class="fab fa-angellist fa-2x"></i></a> -->
-      <!-- https://stackoverflow.com/users/10181828/zhoukenny -->
-      <!-- https://reddit.com/u/zhoukenny -->
-      <a class="icon" href="https://github.com/zhoukenny"><i class="fab fa-github"></i></a>
-      <a class="icon" href="https://linkedin.com/in/zhoukenny"><i class="fab fa-linkedin"></i></a>
-      <a class="icon" href="mailto:info@zhoukenny.com"><i class="fas fa-envelope"></i></a>
-    </div>
-  </footer>
-
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
-
-
-</body>
-
-</html>
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+	  <h3>I'm <strong>{{ site.author }}</strong>, a Software Engineer.</h3>
+	  <h3>I love all things computer science and maths.</h3>
+	  <h3>Have a look at some of my working <a href="{{ site.baseurl }}projects.html"> projects</a>.</h3>
+	  <h3>For more check out my academic &amp; professional <a href="http://jekyller.github.io/vitae">Resume</a>.</h3>
+	  <h3>Contact me at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a>.</h3>
+	  {% include social.html %}
+	</div>
+</section>
